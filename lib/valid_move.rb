@@ -4,10 +4,8 @@ index = 0
 def valid_move?
   if position_taken?
     false
-  elsif index.between(0,8)
-    true
-  else
-    false
+  else index.between(0,8)
+     true
   end
 end
 
